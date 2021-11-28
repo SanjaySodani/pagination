@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="style.css">
+    <!-- link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous" -->
+    <title>Pagination</title>
+</head>
+
+<body>
+    <h1 id="title">DOM Pagination Task</h1>
+    <p id="description">In this we are getting dummy data from mock api to showcase pagination.</p>
+    <div class="table-responsive">
+        <table class="table table-bordered" id="table">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Name</th>
+                    <th>Date Created</th>
+                </tr>
+            </thead>
+            <tbody id="tableData">
+                <tr>
+                    <td>ID</td>
+                    <td class="name">Name</td>
+                    <td>Date created</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div id="buttons" class="d-flex justify-content-center">
+        <button type="button" class="button" id="firstPage" onclick="firstPage()">First</button>
+        <button type="button" class="button" id="prevPage" onclick="prevPage()">Previous</button>
+        <button type="button" class="button" id="nextPage" onclick="nextPage()">Next</button>
+        <button type="button" class="button" id="lastPage" onclick="lastPage()">Last</button>
+    </div>
+
+    <script src="index.js"></script>
+    <script src="https://app.zenclass.in/sheets/v1/js/zen/suite/bundle.js"></script>
+</body>
+
+</html>

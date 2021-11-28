@@ -1,0 +1,17 @@
+body {
+    text-align: center;
+}
+table {
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+}
+#buttons {
+    margin-top: 20px;
+}
+.button {
+    padding: 5px 10px;
+}
+thead tr, tbody tr {
+    text-align: left;
+}
